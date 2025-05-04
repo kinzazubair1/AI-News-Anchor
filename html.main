@@ -1,0 +1,63 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>AI News Bulletin</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                margin: 0;
+                padding: 0;
+            }
+            .news-banner {
+                background-color: #b80000;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                font-size: 28px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+            .story-container {
+                max-width: 900px;
+                margin: 40px auto;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            iframe {
+                width: 100%;
+                height: 450px;
+                border: none;
+                margin-bottom: 20px;
+            }
+            h2 {
+                color: #b80000;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="news-banner">AI-Powered News Bulletin</div>
+    
+        <div class="story-container">
+            <iframe src="https://studio.d-id.com/share?id=2010e2f4e7885c4dda5c7b04324cf540&utm_source=copy" allowfullscreen></iframe>
+            <h2>AI News Breakthroughs!</h2>
+            <p>Today’s top story focuses on how artificial intelligence is revolutionizing the way we consume news...</p>
+        </div>
+        
+        <div class="story-container">
+            <iframe src="https://studio.d-id.com/share?id=another-video-link-here" allowfullscreen></iframe>
+            <h2>Electric Vehicles on the Rise</h2>
+            <p>With more countries adopting EV policies, the market is accelerating like never before...</p>
+        </div>
+        
+    </body>
+    </html>
+    
